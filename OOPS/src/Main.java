@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -71,10 +72,40 @@ public class Main {
 
        // System.out.println(st1.name);
 
-        Student s1 = new Student("nandan",15,98);
-        Student s2 = new Student(s1);
 
-        System.out.println(s2.name);
+        /***********************/
+
+//        Student s1 = new Student("nandan",15,98);
+//        Student s2 = new Student(s1);
+//
+//        System.out.println(s2.name);
+//
+//        Student random = new Student();
+//        System.out.println(random.name);
+
+
+
+/*******************************************/
+
+        /*
+         * In java primitive data types are not objects so they are not in heap memory instead they are in stack memory thats why  we do not use new
+         * in python a = 10  a is in stack memory and 10 in heap meomry bcz it is object but its not the  case in java
+         * how new keyword allocate memory?
+         * Student one = new Student()
+         * student two = one; // simply pointing it to the obj one
+         * we are not creating another object just point in gto that object
+         *
+         * */
+
+        Student ch1 = new Student("dass",15,16f);
+        Student ch2 = ch1;
+        System.out.println(ch2.name);
+        ch1.name = "changed";
+        System.out.println(ch2.name);
+
+
+
+
 
     }
 
@@ -96,9 +127,16 @@ public class Main {
         }
         Student ()
         {
-            this.rno = 15;
-            this.marks = 89;
-            this.name = "Nandan";
+//            this.rno = 15;
+//            this.marks = 89;
+//            this.name = "Nandan";
+
+            // call another constructor from this constructor
+            // in this case this is replaced with the name of the calss
+            this ("Randomo Name",15,15f);
+            // its like new Student()
+            // basically another use case of thisk eyword
+
         }
 
         Student (Student other)
