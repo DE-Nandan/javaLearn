@@ -36,20 +36,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Caller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.packages.b.Caller" />
-      <module name="OOPS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nandan.packages.b.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.com.nandan.properties.inheritance.Main">
     <configuration name="InnerClasses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nandan.staticExample.InnerClasses" />
       <module name="OOPS" />
@@ -76,12 +63,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="staticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.staticExample.staticBlock" />
+    <configuration name="ObjectPrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.properties.polymorphism.ObjectPrint" />
       <module name="OOPS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nandan.staticExample.*" />
+          <option name="PATTERN" value="com.nandan.properties.polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.nandan.properties.inheritance.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.properties.inheritance.Main" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.properties.inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.nandan.properties.polymorphism.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.properties.polymorphism.Main" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.properties.polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,10 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.nandan.properties.inheritance.Main" />
+        <item itemvalue="Application.ObjectPrint" />
+        <item itemvalue="Application.com.nandan.properties.polymorphism.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InnerClasses" />
-        <item itemvalue="Application.staticBlock" />
-        <item itemvalue="Application.Caller" />
       </list>
     </recent_temporary>
   </component>
