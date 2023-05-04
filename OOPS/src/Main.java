@@ -7,7 +7,8 @@ public class Main {
 
         /*
         * GitHub Text Files (NOTES) :https://www.youtube.com/watch?v=BSVKUk58K6U&list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&index=37
-        */
+        * https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/lectures/17-oop
+        * */
 
         // store 5 roll nos
         int[] numbers = new int[5];
