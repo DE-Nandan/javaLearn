@@ -35,6 +35,8 @@ public class ObjectDemo {
     }
 
 
+
+
     @Override
     protected Object clone() throws CloneNotSupportedException {
         return super.clone();
@@ -58,6 +60,9 @@ public class ObjectDemo {
         {
             System.out.println("obj1 is equal to obj2");
         }
+         // to get some data about classes
+        //.getClass() stored in head and then we can get data from it
+        System.out.println(obj1.getClass().getName());
 
     }
 
