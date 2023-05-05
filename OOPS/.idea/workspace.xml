@@ -30,14 +30,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Programming/JAVA/OOPS/src/com/nandan/interfaces/extendDemo2",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Programming/JAVA/OOPS/src/com/nandan/interfaces/extendDemo2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\JAVA\OOPS\src\com\nandan\interfaces\extendDemo2" />
@@ -45,14 +45,43 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programming\JAVA\OOPS\src\com\nandan\access" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nandan.generics" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.com.nandan.interfaces.nested.Main">
+  <component name="RunManager" selected="Application.com.nandan.cloning.Main">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.exceptionhandling.Demo" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.exceptionhandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.generics.LambdaFunctions" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.abstaractDemo.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.nandan.exceptionhandling.Main" />
       <module name="OOPS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nandan.abstaractDemo.*" />
+          <option name="PATTERN" value="com.nandan.exceptionhandling.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.access.ObjectDemo" />
+    <configuration name="com.nandan.cloning.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.cloning.Main" />
       <module name="OOPS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nandan.access.*" />
+          <option name="PATTERN" value="com.nandan.cloning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,38 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.access.SubClass" />
+    <configuration name="com.nandan.generics.comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.generics.comparing.Main" />
       <module name="OOPS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.nandan.access.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.nandan.interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.interfaces.Main" />
-      <module name="OOPS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nandan.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.nandan.interfaces.nested.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.interfaces.nested.Main" />
-      <module name="OOPS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nandan.interfaces.nested.*" />
+          <option name="PATTERN" value="com.nandan.generics.comparing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.nandan.interfaces.nested.Main" />
-        <item itemvalue="Application.com.nandan.interfaces.Main" />
+        <item itemvalue="Application.com.nandan.cloning.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.ObjectDemo" />
-        <item itemvalue="Application.SubClass" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.LambdaFunctions" />
+        <item itemvalue="Application.com.nandan.generics.comparing.Main" />
       </list>
     </recent_temporary>
   </component>
