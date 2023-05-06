@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -43,13 +43,27 @@
       <recent name="D:\Programming\JAVA\OOPS\src\com\nandan\interfaces\extendDemo2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\JAVA\OOPS\src\com\nandan\collections" />
       <recent name="D:\Programming\JAVA\OOPS\src\com\nandan\access" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.nandan.generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.nandan.cloning.Main">
+  <component name="RunManager" selected="Application.Basic">
+    <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.enumExamples.Basic" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.enumExamples.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nandan.exceptionhandling.Demo" />
       <module name="OOPS" />
@@ -102,26 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.nandan.generics.comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.generics.comparing.Main" />
-      <module name="OOPS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nandan.generics.comparing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Basic" />
         <item itemvalue="Application.com.nandan.cloning.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.LambdaFunctions" />
-        <item itemvalue="Application.com.nandan.generics.comparing.Main" />
       </list>
     </recent_temporary>
   </component>
