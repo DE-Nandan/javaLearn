@@ -10,6 +10,8 @@ public class Update {
         try {
 
 
+            Connection  con = ConnectionProvider.getConnection();
+
             String q = "update table1 set tname=? , tCity =? where tid =?";
 
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,7 +25,15 @@ public class Update {
             System.out.println("Enter the student id : ");
             int id = Integer.parseInt(br.readLine());
 
-         //   PreparedStatement pstmt = con.pre;
+           PreparedStatement pstmt = con.prepareStatement(q);
+
+           pstmt.setString(1,name);
+           pstmt.setString(2,city);
+           pstmt.setInt(3,id);
+
+           pstmt.executeUpdate();
+            System.out.println("Updating done....");
+            con.close();
 
 
 

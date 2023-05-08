@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -46,29 +47,9 @@
       <recent name="D:\Programming\JAVA\JDBC\src\com\nandan\jdbcLearn" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InsertLargeImage">
-    <configuration name="CreateConn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.jdbcLearn.CreateConn" />
-      <module name="JDBC" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Select">
     <configuration name="InsertImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nandan.jdbcLearn.InsertImage" />
-      <module name="JDBC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.nandan.jdbcLearn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InsertJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.nandan.jdbcLearn.InsertJDBC" />
       <module name="JDBC" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +87,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Select" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.jdbcLearn.Select" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.jdbcLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Update" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nandan.jdbcLearn.Update" />
+      <module name="JDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nandan.jdbcLearn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Select" />
+        <item itemvalue="Application.Update" />
         <item itemvalue="Application.InsertLargeImage" />
         <item itemvalue="Application.InsertImage" />
         <item itemvalue="Application.PreparedStatementL" />
-        <item itemvalue="Application.InsertJDBC" />
-        <item itemvalue="Application.CreateConn" />
       </list>
     </recent_temporary>
   </component>
@@ -137,5 +144,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JDBC$Select.ic" NAME="Select Coverage Results" MODIFIED="1683476394591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.nandan.jdbcLearn.*</FILTER>
+    </SUITE>
   </component>
 </project>
