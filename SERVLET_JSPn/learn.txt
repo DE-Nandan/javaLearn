@@ -1,0 +1,24 @@
+
+/****SRVLET******/
+
+We have a package in java called javax.servlet
+
+And this package has interface Servlet  with 5 methods
+
+We have to implemnt this interface and define it in our own class
+
+
+web.xml file is deployment descriptor
+
+
+Create servlet using generic servlet
+
+GenericServlet Abstract Class :  implents servlet 
+
+Generic Sevlet have 4 mnethod body and service method is abstract here also
+
+We can extend Servket ands override service method in our own servlet
+
+
+HttpServlet Class have servlet method body and and calls protocol specific methods like do post do put do delete  (http specific functinaolties are fouind in httpservlet)
+
