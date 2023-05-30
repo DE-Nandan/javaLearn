@@ -26,6 +26,7 @@ public class FirstServlet implements Servlet{
         System.out.println("Servicing");
         
         // set the content type of reponse
+        
         resp.setContentType("text/html");
         PrintWriter out =   resp.getWriter();
         out.println("<h1>this is my output from ser=velt method</h1>");

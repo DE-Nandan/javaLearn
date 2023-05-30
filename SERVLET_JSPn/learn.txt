@@ -22,3 +22,51 @@ We can extend Servket ands override service method in our own servlet
 
 HttpServlet Class have servlet method body and and calls protocol specific methods like do post do put do delete  (http specific functinaolties are fouind in httpservlet)
 
+
+LiferCycle of servlet:
+
+1.Sever side program is servleet
+
+2.First time req send then web container will create servlet obj
+
+3.Then obj is initialised using init()
+ method ,With the help of overriding method will run
+
+4. then for request to precess service() is run
+
+5. then for n number for requests service sends n number of reponse (multiple threads will be cerated for runnug services)
+
+6. at last destroy() method is cerated
+
+7.getServletInfo() and getServletConfin() non life cycle method
+
+
+
+Welcome File and Welcome File List :-
+
+First time request ---- index.html or html.jsp is send in reponse
+
+home.jsp is created on server
+
+if we want by default  we want home.jsp as opening page
+
+for which web.xml file is config file where we cdan configure homepage 
+
+For this welcomefile and welcomefilelist  tags are used
+
+
+RequestDsipatcher:
+
+1.it is an interface which helps in dispatching the request to another resourse it may be html,servlet or jsp
+
+for eg from one servelt to another req is forwarded using requestDispatcher interface
+
+2.it is used for including other servelt output and then reponding using first servlet
+
+
+
+
+
+
+
+

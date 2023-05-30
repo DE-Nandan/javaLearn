@@ -15,7 +15,7 @@
     <servlet-name>second</servlet-name>
     <servlet-class>com.servlets.SecondServlet</servlet-class>
 </servlet>
-
+ 
 <servlet>
     <servlet-name>myservlet</servlet-name>
     <servlet-class>com.servlets.MyServlet</servlet-class>
